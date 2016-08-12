@@ -1,0 +1,37 @@
+﻿.dashboard-tile .graph-container {
+    padding-bottom: 20px;
+}
+.dashboard-tile .graph {
+    height:400px;
+}
+.dashboard-tile .graph-control > div {
+    padding-left:55px;
+    padding-right: 55px;
+}
+.dashboard-tile .graph-control {
+    padding-top:20px;
+}
+.dashboard-tile .data-table-container {
+    padding: 30px 80px;
+    padding-top: 10px;
+    overflow: hidden;
+    height: auto;
+}
+.dashboard-tile .data-table-container .toggle-table-visibility {
+    margin:auto;
+    display:block;
+}
+.dashboard-tile .data-table-container .graph_details > table {
+    margin: 20px 0;
+    border-bottom: 1px solid #AAA;
+}
+.dashboard-tile table.dataTable thead .sorting, .dashboard-tile table.dataTable thead .sorting_asc, .dashboard-tile table.dataTable thead .sorting_desc, .dashboard-tile table.dataTable thead .sorting_asc_disabled, .dashboard-tile table.dataTable thead .sorting_desc_disabled {
+    background-position: center left;
+}
+.dashboard-tile .graph_details .data-element {
+    color: blue;
+    cursor: pointer;
+}
+.dashboard-tile .graph_details .data-element:hover {
+    text-decoration: underline;
+}
